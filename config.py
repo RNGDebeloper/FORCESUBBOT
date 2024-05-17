@@ -44,8 +44,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\nYou are just 1 step away from joining 'AI TRADING BILLIONAIRE' official telegram channel 🎯🎯🚀🚀\n\nGet Daily FREE trading calls from our expert team having more than 15yrs experience in Nifty, Bank Nifty, FinNifty, Stock Option.\n\n✅ Trusted by 50,000+ traders\n\n✅ Receive daily trades and updates\n\n✅ More than 15yrs experience\n\n✅ Join for latest updates\n\n👇 Click on below button to join official 'AI TRADING BILLIONAIRE' telegram channel 👇
-</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\nYou are just 1 step away from joining 'AI TRADING BILLIONAIRE' official telegram channel 🎯🎯🚀🚀\n\nGet Daily FREE trading calls from our expert team having more than 15yrs experience in Nifty, Bank Nifty, FinNifty, Stock Option.\n\n✅ Trusted by 50,000+ traders\n\n✅ Receive daily trades and updates\n\n✅ More than 15yrs experience\n\n✅ Join for latest updates\n\n👇 Click on below button to join official 'AI TRADING BILLIONAIRE' telegram channel 👇")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
