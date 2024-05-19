@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ TRADER : <a href='tg://user?id={OWNER_ID}'>@Billionaresoption</a>\n○ Channel :  <a href='https://t.me/5D0PteJ-XQ85NjII'>AI TRADING BILLIONAIRE\n○ Developer : @Uchiha_Developer</b>",
+            text = f"<b>○ TRADER : <a href='tg://user?id={OWNER_ID}'>@Billionaresoption</a>\n○ Channel :  <a href='https://t.me/+5D0PteJ-XQ85Njll'>AI TRADING BILLIONAIRE\n\n○ ✨Join Channel✨ : https://t.me/+5D0PteJ-XQ85Njll</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
