@@ -65,7 +65,7 @@ async def start_command(client: Client, message: Message):
 
             if bool(CUSTOM_CAPTION) & bool(msg.document):
                 caption = CUSTOM_CAPTION.format(previouscaption = "" if not msg.caption else msg.caption.html, filename = msg.document.file_name)
-            else:
+            else:✨✨
                 caption = "" if not msg.caption else msg.caption.html
 
             if DISABLE_CHANNEL_BUTTON:
@@ -86,8 +86,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📞 Contact Us!", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("✨JOIN NOW !✨", url = "https://t.me/+kQHnUDdNs1wyYjM1"),
+                    InlineKeyboardButton("✨JOIN NOW !✨", url = "https://t.me/+kQHnUDdNs1wyYjM1")
                 ]
             ]
         )
