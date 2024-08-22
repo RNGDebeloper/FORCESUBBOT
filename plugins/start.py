@@ -97,6 +97,13 @@ async def start_command(client: Client, message: Message):
                 ]
             ]
         )
+#Start pic added!!!
+        if START_PIC:
+        await message.reply_photo(START_PIC, caption=txt, reply_markup=button)       
+    else:
+        await message.reply_text(text=txt, reply_markup=button, disable_web_page_preview=True)
+#Start pic ended!!
+        
         await message.reply_text(
             text = START_MSG.format(
                 first = message.from_user.first_name,
