@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Heyy there {first},\n\nI'm Nami, your friendly Link Manager Bot.\nI'm the go-to bot for managing all the links in the Uchiha Community.\n\nAnd you know what's cool?\nI was created by the one and only\nThe Last Coder!.")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Heyy there {first},\n\nɪ'ᴍ ɴᴀᴍɪ, ʏᴏᴜʀ ғʀɪᴇɴᴅʟʏ ʟɪɴᴋ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ.\nɪ'ᴍ ᴛʜᴇ ɢᴏ-ᴛᴏ ʙᴏᴛ ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ᴀʟʟ ᴛʜᴇ ʟɪɴᴋs ɪɴ ᴛʜᴇ ᴜᴄʜɪʜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ.\n\nᴀɴᴅ ʏᴏᴜ ᴋɴᴏᴡ ᴡʜᴀᴛ's ᴄᴏᴏʟ?\ɴɪ ᴡᴀs ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛʜᴇ ᴏɴᴇ ᴀɴᴅ ᴏɴʟʏ ᴛʜᴇ ʟᴀsᴛ ᴄᴏᴅᴇʀ!</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "**Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel**</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "‌<b>🇭‌🇪‌🇱‌🇱‌🇴‌ {first},\n\nY🇴‌🇺‌ 🇳‌🇪‌🇪‌🇩‌ 🇹‌🇴‌ 🇯‌🇴‌🇮‌🇳‌ 🇮‌🇳‌ 🇲‌🇾‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌/🇬‌🇷‌🇴‌🇺‌🇵‌ 🇹‌🇴‌ 🇺‌🇸‌🇪‌ 🇲‌🇪‌\n\n🇰‌🇮‌🇳‌🇩‌🇱‌🇾‌ 🇵‌🇱‌🇪‌🇦‌🇸‌🇪‌ 🇯‌🇴‌🇮‌🇳‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌</b>")
 
 #Adding a Start Pic!!
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/5377d6419b2c9f9fc8d73.jpg")
