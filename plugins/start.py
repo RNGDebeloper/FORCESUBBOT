@@ -98,7 +98,7 @@ async def start_command(client: Client, message: Message):
             ]
         )
     if START_PIC:
-        await message.reply_photo(START_PIC, caption=text, reply_markup=button) 
+        await message.reply_photo(START_PIC, caption=text, reply_markup=reply_markup) 
     else:
         await message.reply_text(
             text = START_MSG.format(
