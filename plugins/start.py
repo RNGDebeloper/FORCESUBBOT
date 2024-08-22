@@ -86,8 +86,14 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✨JOIN NOW !✨", url = "https://t.me/+kQHnUDdNs1wyYjM1"),
-                    InlineKeyboardButton("✨JOIN NOW !✨", url = "https://t.me/+kQHnUDdNs1wyYjM1")
+                    InlineKeyboardButton("**✨Join Community Channel✨**", url = "https://t.me/Uchiha_Community"),
+                    InlineKeyboardButton("**✨Join 2nd Community Channel✨**", url = "https://t.me/ZolDox"),
+                    
+                ],
+                [
+                    InlineKeyboardButton("**✨Buy Premium !✨**", url = "https://t.me/+kQHnUDdNs1wyYjM1"),
+                    InlineKeyboardButton("**✨Developer !✨**", url = "https://t.me/Its_Sasuke_Uchiha"),
+                    
                 ]
             ]
         )
@@ -120,9 +126,12 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(
-                "✨Join 'AI TRADING BILLIONAIRE' Channel✨",
-                url = client.invitelink)
+                    InlineKeyboardButton("**✨Join Channel✨**", url = "https://t.me/+xCJHeNzTOoI5M2I1"),
+                    InlineKeyboardButton("**✨Join 2nd Channel✨**", url = "https://t.me/+2h_JJJhiUmIxYzc1"),
+                    
+        ],
+        [
+            InlineKeyboardButton("**✨Join 3rd Channel✨**", url = client.invitelink)
         ]
     ]
     try:
