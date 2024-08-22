@@ -48,6 +48,9 @@ except ValueError:
 #Force sub message 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "**Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel**</b>")
 
+#Adding a Start Pic!!
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/5377d6419b2c9f9fc8d73.jpg")
+
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 
