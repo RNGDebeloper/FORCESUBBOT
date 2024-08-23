@@ -86,22 +86,22 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Community Channel", url = "https://t.me/Uchiha_Community"),
-                    InlineKeyboardButton("Join 2nd Community Channel", url = "https://t.me/ZolDox"),
+                    InlineKeyboardButton("Join Channel", url = "https://t.me/Uchiha_Community"),
+                    InlineKeyboardButton("Join Channel", url = "https://t.me/ZolDox"),
                     
                 ],
                 [
-                    InlineKeyboardButton("Buy Premium !", url = "https://t.me/+kQHnUDdNs1wyYjM1"),
-                    InlineKeyboardButton("Developer !", url = "https://t.me/Its_Sasuke_Uchiha"),
+                    InlineKeyboardButton("Buy Premium", url = "https://t.me/+kQHnUDdNs1wyYjM1"),
+                    InlineKeyboardButton("Developer", url = "https://t.me/Its_Sasuke_Uchiha"),
                     
                 ]
             ]
         )
     if START_PIC:
-        await message.reply_photo(START_PIC, caption=START_MSG, reply_markup=reply_markup) 
+        await message.reply_photo(START_PIC, caption=txt, reply_markup=reply_markup) 
     else:
         await message.reply_text(
-            text = START_MSG.format(
+            txt = START_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
                 username = None if not message.from_user.username else '@' + message.from_user.username,
@@ -129,12 +129,7 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-                    InlineKeyboardButton("Join Channel", url = "https://t.me/+xCJHeNzTOoI5M2I1"),
-                    InlineKeyboardButton("Join 2nd Channel", url = "https://t.me/+2h_JJJhiUmIxYzc1"),
-                    
-        ],
-        [
-            InlineKeyboardButton("Join 3rd Channel", url = client.invitelink)
+            InlineKeyboardButton("Join Channel", url = client.invitelink)
         ]
     ]
     try:
