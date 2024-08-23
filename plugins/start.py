@@ -86,12 +86,12 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Channel", url = "https://t.me/Uchiha_Community"),
-                    InlineKeyboardButton("Join Channel", url = "https://t.me/ZolDox"),
+                    InlineKeyboardButton("Join Community", url = "https://t.me/Uchiha_Community"),
+                    InlineKeyboardButton("Join Backup", url = "https://t.me/ZolDox"),
                     
                 ],
                 [
-                    InlineKeyboardButton("Buy Premium", url = "https://t.me/+kQHnUDdNs1wyYjM1"),
+                    InlineKeyboardButton("Buy Premium", url = "https://t.me/Kasumi_Miwa_Bot?start=Z2V0LTM4MDY4MjE4MjU0ODE2"),
                     InlineKeyboardButton("Developer", url = "https://t.me/Its_Sasuke_Uchiha"),
                     
                 ]
