@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Heyy there {first},\n\nɪ'ᴍ ɴᴀᴍɪ, ʏᴏᴜʀ ғʀɪᴇɴᴅʟʏ ʟɪɴᴋ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ.\nɪ'ᴍ ᴛʜᴇ ɢᴏ-ᴛᴏ ʙᴏᴛ ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ᴀʟʟ ᴛʜᴇ ʟɪɴᴋs ɪɴ ᴛʜᴇ ᴜᴄʜɪʜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ.\n\nᴀɴᴅ ʏᴏᴜ ᴋɴᴏᴡ ᴡʜᴀᴛ's ᴄᴏᴏʟ?\ɴɪ ᴡᴀs ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛʜᴇ ᴏɴᴇ ᴀɴᴅ ᴏɴʟʏ ᴛʜᴇ ʟᴀsᴛ ᴄᴏᴅᴇʀ!</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Heyy there {first},\n\nɪ'ᴍ ​🇰​​🇦​​🇸​​🇺​​🇲​​🇮​, ʏᴏᴜʀ ғʀɪᴇɴᴅʟʏ ʟɪɴᴋ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ.\nɪ'ᴍ ᴛʜᴇ ɢᴏ-ᴛᴏ ʙᴏᴛ ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ᴀʟʟ ᴛʜᴇ ʟɪɴᴋs ɪɴ ᴛʜᴇ ᴜᴄʜɪʜᴀ ᴄᴏᴍᴍᴜɴɪᴛʏ.\n\nᴀɴᴅ ʏᴏᴜ ᴋɴᴏᴡ ᴡʜᴀᴛ's ᴄᴏᴏʟ? ɪ ᴡᴀs ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛʜᴇ ᴏɴᴇ ᴀɴᴅ ᴏɴʟʏ ᴛʜᴇ ʟᴀsᴛ ᴄᴏᴅᴇʀ!</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -46,10 +46,10 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "‌<b>🇭‌🇪‌🇱‌🇱‌🇴‌ {first},\n\n‌🇾🇴‌🇺‌ 🇳‌🇪‌🇪‌🇩‌ 🇹‌🇴‌ 🇯‌🇴‌🇮‌🇳‌ 🇮‌🇳‌ 🇲‌🇾‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌/🇬‌🇷‌🇴‌🇺‌🇵‌ 🇹‌🇴‌ 🇺‌🇸‌🇪‌ 🇲‌🇪‌\n\n🇰‌🇮‌🇳‌🇩‌🇱‌🇾‌ 🇵‌🇱‌🇪‌🇦‌🇸‌🇪‌ 🇯‌🇴‌🇮‌🇳‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "‌<b>(っ◔◡◔)っ ♥ 🇭‌🇪‌🇱‌🇱‌🇴 ♥‌ {first},\n\n‌🇾🇴‌🇺‌ 🇳‌🇪‌🇪‌🇩‌ 🇹‌🇴‌ 🇯‌🇴‌🇮‌🇳‌ 🇮‌🇳‌ 🇲‌🇾‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌/🇬‌🇷‌🇴‌🇺‌🇵‌ 🇹‌🇴‌ 🇺‌🇸‌🇪‌ 🇲‌🇪‌\n\n🇰‌🇮‌🇳‌🇩‌🇱‌🇾‌ 🇵‌🇱‌🇪‌🇦‌🇸‌🇪‌ 🇯‌🇴‌🇮‌🇳‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌</b>")
 
 #Adding a Start Pic!!
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/5377d6419b2c9f9fc8d73.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/519147bfdcbc38b7d9e5b.jpg")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
