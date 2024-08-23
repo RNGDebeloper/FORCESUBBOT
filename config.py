@@ -46,7 +46,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "‌<b>🇭‌🇪‌🇱‌🇱‌🇴‌ {first},\n\nY🇴‌🇺‌ 🇳‌🇪‌🇪‌🇩‌ 🇹‌🇴‌ 🇯‌🇴‌🇮‌🇳‌ 🇮‌🇳‌ 🇲‌🇾‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌/🇬‌🇷‌🇴‌🇺‌🇵‌ 🇹‌🇴‌ 🇺‌🇸‌🇪‌ 🇲‌🇪‌\n\n🇰‌🇮‌🇳‌🇩‌🇱‌🇾‌ 🇵‌🇱‌🇪‌🇦‌🇸‌🇪‌ 🇯‌🇴‌🇮‌🇳‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "‌<b>🇭‌🇪‌🇱‌🇱‌🇴‌ {first},\n\n‌🇾🇴‌🇺‌ 🇳‌🇪‌🇪‌🇩‌ 🇹‌🇴‌ 🇯‌🇴‌🇮‌🇳‌ 🇮‌🇳‌ 🇲‌🇾‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌/🇬‌🇷‌🇴‌🇺‌🇵‌ 🇹‌🇴‌ 🇺‌🇸‌🇪‌ 🇲‌🇪‌\n\n🇰‌🇮‌🇳‌🇩‌🇱‌🇾‌ 🇵‌🇱‌🇪‌🇦‌🇸‌🇪‌ 🇯‌🇴‌🇮‌🇳‌ 🇨‌🇭‌🇦‌🇳‌🇳‌🇪‌🇱‌</b>")
 
 #Adding a Start Pic!!
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/5377d6419b2c9f9fc8d73.jpg")
