@@ -98,10 +98,10 @@ async def start_command(client: Client, message: Message):
             ]
         )
     if START_PIC:
-        await message.reply_photo(START_PIC, caption=txt, reply_markup=reply_markup) 
+        await message.reply_photo(START_PIC, caption=text, reply_markup=reply_markup) 
     else:
         await message.reply_text(
-            txt = START_MSG.format(
+            text = START_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
                 username = None if not message.from_user.username else '@' + message.from_user.username,
