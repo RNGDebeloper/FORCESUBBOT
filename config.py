@@ -52,7 +52,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "‌<b>(っ◔◡◔)っ ♥ �
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/519147bfdcbc38b7d9e5b.jpg")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Your Link is Ready!\nHave Fun & Enjoy!)
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
