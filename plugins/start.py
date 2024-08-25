@@ -91,7 +91,7 @@ async def start_command(client: Client, message: Message):
                     
                 ],
                 [
-                    InlineKeyboardButton("Buy Premium", callback_data = "about"),
+                    InlineKeyboardButton("Buy Premium", url = "https://t.me/Kasumi_Miwa_Bot?start=Z2V0LTM4MDY4MjE4MjU0ODE2"),
                     InlineKeyboardButton("Developer", url = "https://t.me/Its_Sasuke_Uchiha"),
                     
                 ]
