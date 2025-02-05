@@ -92,7 +92,7 @@ async def start_command(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton("Buy Premium", url = "https://t.me/Kasumi_Miwa_Bot?start=Z2V0LTM4MDY4MjE4MjU0ODE2"),
-                    InlineKeyboardButton("Developer", url = "https://t.me/Its_Sasuke_Uchiha"),
+                    InlineKeyboardButton("Developer", url = "https://t.me/Uchiha_Developer"),
                     
                 ]
             ]
@@ -137,12 +137,12 @@ REPLY_ERROR = """<code>Use this command as a replay to any telegram message with
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-                    InlineKeyboardButton("Join Channel", url = "https://t.me/+7Q4_XIyXMBk2Mzc9"),
-                    InlineKeyboardButton("Join 2nd Channel", url = "https://t.me/+WlYFgfu0i6QzOTJl")
+                    InlineKeyboardButton("Join Channel", url = "https://t.me/+kAUJ_C2wxsZjY2Zl"),
+                    InlineKeyboardButton("Join 2nd Channel", url = "https://openinapp.link/fel7o")
                     
         ],
         [
-            InlineKeyboardButton("Join 3rd Channel", url = "https://t.me/SellXone"),
+            InlineKeyboardButton("Join 3rd Channel", url = "https://t.me/+LQqVzFj3rrMzNjdl"),
             InlineKeyboardButton("Join 4th Channel", url = client.invitelink)
         ]
     ]
